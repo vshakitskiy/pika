@@ -1,5 +1,5 @@
 name = "pika_id"
-version = "0.1.0"
+version = "1.0.0"
 description = "Gleam implementation of Pika ID"
 
 licences = ["Apache-2.0"]

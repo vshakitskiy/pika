@@ -5,6 +5,10 @@
 Combine Stripe IDs with Snowflakes you get Pika! The last ID system you'll ever need!
 Combining pragmatism with functionality
 
+[![Version](https://img.shields.io/hexpm/v/pika_id)](https://hex.pm/packages/pika_id)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/pika_id)
+![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)
+
 ## Features
 
 - Written using only official Gleam libs.
@@ -17,6 +21,8 @@ Add `pika_id` to your Gleam project.
 ```sh
 gleam add pika_id
 ```
+
+Further documentation can be found at: https://hexdocs.pm/pika_id
 
 ## Basic Usage
 
