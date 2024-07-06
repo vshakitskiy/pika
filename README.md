@@ -23,10 +23,11 @@ Example ID: `user_MTI5Njg4Njg1MDQwODg5ODYx`
 
 ## Implementations
 
-- [JS (TypeScript)](/impl/js)  
-- [Rust](/impl/rs)  
-- [Elixir](/impl/ex)  
-- [C#](/impl/csharp)  
+- [JS (TypeScript)](/impl/js)
+- [Rust](/impl/rs)
+- [Elixir](/impl/ex)
+- [Gleam](/impl/gleam)
+- [C#](/impl/csharp)
 
 ## The ID
 
