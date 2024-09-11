@@ -4,7 +4,6 @@ import gleam/list
 import gleam/regex
 import gleam/string
 
-/// Get timestamp in millisec.
 pub fn get_timestamp() -> Int {
   erlang.Millisecond |> erlang.system_time()
 }
@@ -23,7 +22,6 @@ pub type Address {
   Broadaddr
 }
 
-/// Get the mac address of the first available public interface on the device.
 pub fn get_mac_address() -> String {
   let assert Ok(interfaces) = getifaddrs()
 
@@ -61,7 +59,6 @@ fn filter_hwaddrs(addresses: List(Address)) -> Address {
   hwaddr
 }
 
-/// Compute the Node ID for the Snowflake gen.
 pub fn compute_node_id() {
   let assert Ok(id) =
     get_mac_address() |> string.replace(":", "") |> int.base_parse(16)

@@ -1,8 +1,11 @@
 name = "pika_id"
-version = "1.0.0"
+version = "1.1.0"
 description = "Gleam implementation of Pika ID"
+target = "erlang"
 
 licences = ["Apache-2.0"]
+
+repository = { type = "github", user = "Phineas", repo = "pika" }
 
 [dependencies]
 gleam_stdlib = ">= 0.34.0 and < 2.0.0"

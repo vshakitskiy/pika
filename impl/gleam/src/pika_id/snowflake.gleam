@@ -3,7 +3,7 @@ import gleam/int
 import gleam/otp/actor
 import gleam/result
 import gleam/string
-import pika_id/utils.{compute_node_id, get_timestamp}
+import internal.{compute_node_id, get_timestamp}
 
 /// The default epoch for the generator.
 pub const default_epoch: Int = 1_640_995_200_000
@@ -136,7 +136,7 @@ pub fn generate(snowflake_gen: SnowflakeGen) -> SnowflakeId {
 }
 
 fn generate_id(snowflake: Snowflake) -> SnowflakeId {
-  // TODO: seq >= max_seq
+  // seq >= max_seq??
 
   let since_epoch =
     int.bitwise_shift_left(snowflake.last_seq_exhaustion - snowflake.epoch, 22)
