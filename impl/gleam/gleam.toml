@@ -5,7 +5,7 @@ target = "erlang"
 
 licences = ["Apache-2.0"]
 
-repository = { type = "github", user = "Phineas", repo = "pika" }
+# repository = { type = "github", user = "Phineas", repo = "pika" }
 internal_modules = [
   "pika_id/internal",
   "pika_id/internal/*",
