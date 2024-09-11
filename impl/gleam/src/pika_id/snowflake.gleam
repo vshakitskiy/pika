@@ -3,7 +3,7 @@ import gleam/int
 import gleam/otp/actor
 import gleam/result
 import gleam/string
-import internal.{compute_node_id, get_timestamp}
+import pika_id/internal.{compute_node_id, get_timestamp}
 
 /// The default epoch for the generator.
 pub const default_epoch: Int = 1_640_995_200_000
